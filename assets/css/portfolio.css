@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Suranna");
+body {
+  margin: 0;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/zen.jpg");
+  filter: grayscale(100%);
+  /* Set a specific height */
+  min-height: 1000px;
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header-right-text {
+  font-family: "Open Sans";
+  color: white;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  font-style: italic;
+  text-shadow: 2px 2px rgb(189, 170, 3);
+}
+
+#header-left-text {
+  font-family: "Open Sans";
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  position: absolute;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+nav {
+  font-family: "Open Sans";
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  position: fixed;
+}
+
+nav ul {
+  text-align: right;
+  margin-top: 0px;
+  color: white;
+}
+
+nav ul li {
+  display: inline-block;
+  color: white;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: black;
+}
+
+.about {
+  background-image: url("../images/stones.jpg");
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.about-me {
+  margin: 0 auto;
+  background: rgba(153, 240, 72, 0.158);
+  position: relative;
+  margin-top: 20%;
+  font-family: "Open Sans";
+  border-radius: 3%;
+}
+
+.pic-col {
+  padding: 0;
+}
+
+#about-me {
+  font-weight: 900;
+  margin-top: 2%;
+  color: white;
+}
+
+#about-text {
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+}
+
+.portfolio {
+  background-image: url("../images/zen3.jpg");
+  height: 100%;
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans";
+  display: block;
+  text-align: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.514);
+}
+
+.contact {
+  background: url("../images/forest.jpg");
+  height: 100%;
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.con {
+  margin: 0 auto;
+  position: relative;
+  margin-top: 12%;
+  background: rgba(85, 106, 45, 0.603);
+  border-radius: 3%;
+  font-family: "Open Sans";
+}
